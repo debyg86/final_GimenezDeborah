@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
+import { LogoARComponent } from './components/logo-ar/logo-ar.component';
+import { SocialComponent } from './components/social/social.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    LogoARComponent,
+    SocialComponent,
+    BannerComponent,
+    AcercaDeComponent
   ],
   imports: [
     BrowserModule,
