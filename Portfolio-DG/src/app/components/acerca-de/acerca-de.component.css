@@ -14,24 +14,25 @@ div{
     width: 15%;
     border-radius: 100%;
     box-shadow: 3px 3px 3px grey;
-    left: 5%;
-    top: 650px;
+    left: 2%;
+    top: 600px;
 }
 }
 @media (max-width:575px){
     #foto{
     
         position: absolute;
-        width: 15%;
+        width: 30%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
-        left: 3%;
+        left: 33%;
+        top: 700px;
     }
 }
 /*etiqueta nombre*/
 #nombre{
     font-weight: bold;
-    margin-top: 20%;
+    margin-top: 30%;
     font-size: 45px;
     
 }
